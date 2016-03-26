@@ -1,8 +1,8 @@
-#### Basic Project
+#### First Project
 
 ### March 26, 2016
 
-An Application which greets user
+My first project
 
 * Git
 * Java 7
