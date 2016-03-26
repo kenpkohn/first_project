@@ -18,19 +18,19 @@ public class GradeValue {
 		double user_gpa = Double.parseDouble(input);
 
 		if (user_gpa <= 0) {
-			System.out.println("Did you even attend the class?!?! " + "You totally flunked with an F!!");
+			System.out.println("Did you even attend the class?!?!" + " You totally flunked with an F!!");
 
 		} else if (user_gpa <= 1) {
-			System.out.println("You barely made it with an D! " + "You should take this class again");
+			System.out.println("You barely made it with an D!" + " You should take this class again");
 
 		} else if (user_gpa <= 2) {
-			System.out.println("You did OK with a C ." + "You should take this class again");
+			System.out.println("You did OK with a C." + " You should take this class again");
 
 		} else if (user_gpa <= 3) {
-			System.out.println("You did good with a B ");
+			System.out.println("You did good with a B.");
 
 		} else if (user_gpa <= 4) {
-			System.out.println("You did great. You earned an A !" + "Good Job!");
+			System.out.println("You did great. You earned an A!" + " Good Job!");
 		} else
 			System.out.println("You are totally lying. EOL.");
 	}
